@@ -1,13 +1,13 @@
 <?php
 
-	include './regexp.php';
+	include '../php_files/regexp.php';
 	
 	if(isset($_POST['valider'])) {
 		
 		$txt	= $_POST['texte'];
 		$nb 	= $_POST['nombre'];
 		
-		echo (majuscule($txt))? 'majuscule' : 'minuscule';
+		echo (est_majuscule($txt))? 'oui' : 'non';
 		
 		
 	}
