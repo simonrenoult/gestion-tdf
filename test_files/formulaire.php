@@ -21,8 +21,7 @@
 			<body>
 				<h3>Mon formulaire</h3>
 				<form action="<?php echo $_SERVER['PHP_SELF'];?>" method='post'>
-					Texte<br /><input name = "texte" type="text"/><br />
-					Nombre<br /><input name="nombre" type="text"/><br />
+					Champ à tester : <br /><input name = "texte" type="text"/><br />
 					<input name = "valider" type="submit"/>
 				</form>
 			</body>
