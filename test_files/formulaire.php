@@ -5,10 +5,10 @@
 	if(isset($_POST['valider'])) {
 		
 		$txt	= $_POST['texte'];
-		$nb 	= $_POST['nombre'];
 		
-		echo (est_majuscule($txt))? 'oui' : 'non';
+		echo (contr_prenom_coureur($txt))? 'oui' : 'non';
 		
+		header("Refresh:1;URL=./formulaire.php");
 		
 	}
 	else {
