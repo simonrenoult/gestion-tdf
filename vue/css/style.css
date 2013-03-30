@@ -1,0 +1,178 @@
+@CHARSET "ISO-8859-1";
+/* CSS Document */
+
+/*------------------------------------------------------------*/
+/* Ceci s'applique à tout fichier php (formulaire.php,sql.php)*/
+/*------------------------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 15px 0px 15px 0px;
+	padding: 0 0 0 0;
+	text-align: justify;
+}
+
+h2 {
+	color: #3F0;
+}
+
+body {
+	width: 1200px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: white; center;
+	font: 15px Verdana, Geneva, sans-serif;
+	color: #666;
+	border:solid;
+	
+}
+
+#header {
+	height: 200px;
+	background: url("../img/header.jpg") repeat-x top;
+}
+
+.menu {
+	text-align: center;
+}
+
+.menu ul {
+	list-style: none;
+}
+
+.menu ul li {
+	display: inline;
+	padding-right: 6px;
+}
+
+.menu ul li a { /*Increase Clickable Area*/
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 9px;
+	text-decoration: none;
+	color: #CCC;
+}
+
+.menu ul li a:hover {
+	
+}
+
+
+#corps {
+	border: solid 1px;
+	height: 550px;
+	
+}
+
+#footer {
+	height: 100px;
+	background: url("../img/footer1.jpg") repeat-x;
+}
+
+/*-------------------------------------------------------------------*/
+/* Ceci s'applique uniquement aux formualaires(coureur,pays,etc.).php*/
+/*-------------------------------------------------------------------*/
+
+
+#subheader {
+	height: 50px;
+	text-align: left;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.usr {
+	float: right;
+}
+
+#listeTable {
+	float: left;
+	width: 150px;
+	height: 400px;
+	margin-right: 30px;
+	padding: 20px;
+	text-decoration: none;
+}
+
+#listeTable ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+#listeTable	 ul li a:hover {
+	text-decoration: underline;
+}
+
+#listeTable ul {
+	list-style: none;
+}
+
+#left_side {
+	float: left;
+}
+
+#recherche {
+	float: left;
+	padding: 10px;
+	width: 340x;
+	height: 400px;
+}
+
+/*formulairecoureur.php, formualirepays.php, etc.*/
+#formulaire {
+	margin-left: 20px;
+	float: left;
+	padding: 10px;
+	width: 480px;
+	height: 300px;
+	text-align: center;
+}
+
+
+
+/*-----------------------------------------------*/
+/* Ceci s'applique uniquement au fichier index.php*/
+/*-----------------------------------------------*/
+#connexion {
+	margin-top: 100px;
+	margin-left: 400px;
+	height: 300 px;
+	width: 400px;
+}
+
+/*--------------------------------------------------------------*/
+/* Ceci s'applique uniquement au fichier journal_tansaction.php*/
+/*------------------------------------------------------------*/
+#transaction{
+	border: solid 1px;
+	height: 550px;
+	overflow-y : scroll;
+	overflow-x : hidden;
+}
+
+/*-----------------------------------------------*/
+/* Ceci s'applique uniquement au fichier SQL.php*/
+/*-----------------------------------------------*/
+table {
+	border-collapse: collapse;
+	width: 90%;
+}
+
+th,td {
+	border: 1px solid black;
+	width: 20%;
+}
+
+td {
+	text-align: center;
+}
+
+#tableauSQL {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}

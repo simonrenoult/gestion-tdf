@@ -1,0 +1,45 @@
+[Thursday 20/10/2011 - 07:51] admin :
+DELETE FROM tdf_coureur
+  WHERE n_coureur = 4390
+Valeurs saisies : 4390	ERVITI	Imanol	1983	ESP	2010
+
+[Thursday 20/10/2011 - 07:51] admin :
+DELETE FROM tdf_coureur
+  WHERE n_coureur = 1290
+Valeurs saisies : 1290	JALABERT	Nicolas	1973	FRA	1997
+
+[Thursday 20/10/2011 - 07:53] admin :
+INSERT INTO tdf_coureur (n_coureur, nom, prenom, annee_naissance, code_tdf, annee_tdf)
+  VALUES (:num, :nom, :prenom, :naiss, :code, :annee_tdf)
+Valeurs saisies : 4685	EBE F	Ebé-Jkl		FRA	
+
+[Thursday 20/10/2011 - 07:54] admin :
+INSERT INTO tdf_coureur (n_coureur, nom, prenom, annee_naissance, code_tdf, annee_tdf)
+  VALUES (:num, :nom, :prenom, :naiss, :code, :annee_tdf)
+Valeurs saisies : 4690	EEE EEE EEE	Eéé-Eéé-Eéé		FIN	
+
+[Thursday 20/10/2011 - 07:57] admin :
+
+Valeurs saisies : 2011	1	AUT	RSA	A	B	12		01/01/11	CMI			
+
+[Thursday 20/10/2011 - 07:58] admin :
+
+Valeurs saisies : 2011	14	AND	AUT	GH	GFH	14		01/01/11	CMI			
+
+[Thursday 20/10/2011 - 08:00] admin :
+
+Valeurs saisies : 6	3	ASTANAB	AST	AUS	2011
+
+[Thursday 20/10/2011 - 08:02] admin :
+
+Valeurs saisies : 60	1995	NULL
+
+[Thursday 20/10/2011 - 08:02] admin :
+
+Valeurs saisies : 60	1	BVB	BNV	AUS	2010
+
+[Thursday 20/10/2011 - 08:03] admin :
+INSERT INTO tdf_participation (n_coureur, n_equipe, n_sponsor,annee, n_dossard,jeune)
+  VALUES (:ncoureur, :nequipe, :nsponsor,:annee,  :ndossard, ':jeune')
+Valeurs saisies : 75	24	4	2011	16	o
+

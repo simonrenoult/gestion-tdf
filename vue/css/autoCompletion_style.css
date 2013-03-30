@@ -1,0 +1,32 @@
+#auto_completion_reponse {
+	width:325px;
+	background-color:#CCCCCC;
+	display:none;
+}
+
+#auto_completion_reponse input:hover {
+	cursor:pointer;
+}
+
+#auto_completion_reponse input {
+	height:22px;
+	_height:20px;
+	margin-top:2px;
+	_margin-top:0px;
+	width:325px;
+	font-size:12px;
+}
+
+#auto_completion_reponse p {
+	background-color:#9FA837;
+	text-align:center;
+	margin: 0 0 0 0;
+}
+
+#auto_completion_reponse .p2 {
+	font: Verdana, Geneva, sans-serif;
+	font-style:italic;
+	font:bold;
+	font-size:17px;
+	color:#5110D8;
+}
