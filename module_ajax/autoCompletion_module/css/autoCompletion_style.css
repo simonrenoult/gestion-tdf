@@ -1,0 +1,37 @@
+#autoCompletion_answer {
+	width:325px;
+	background-color:#CCCCCC;
+	display:none;
+}
+
+#autoCompletion_answer input:hover {
+	cursor:pointer;
+}
+
+#autoCompletion_answer input {
+	height:22px;
+	_height:20px;
+	margin-top:2px;
+	_margin-top:0px;
+	width:325px;
+	font-size:12px;
+}
+
+#autoCompletion_answer .signature {
+	border:groove 1px #39CA35;
+	width:325px;
+}
+
+#autoCompletion_answer p {
+	background-color:#9FA837;
+	text-align:center;
+	margin: 0 0 0 0;
+}
+
+#autoCompletion_answer .p2 {
+	font-family:Rockwell, "Rockwell Extra Bold";
+	font-style:italic;
+	font:bold;
+	font-size:17px;
+	color:#5110D8;
+}
