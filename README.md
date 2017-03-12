@@ -6,5 +6,5 @@ Début du projet : 19-09-11
 Début du développement : 19-09-11
 
 #Mainteneurs
-- Simon RENOULT (aka g4llic4)
-- Alexis CHRETIENNE (aka xelais)
+- Simon RENOULT
+- Alexis CHRETIENNE
